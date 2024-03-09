@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const app = express();
 
 app.use(cors({
-    origin: "https://serene-rugelach-fea15e.netlify.app",
+    origin: "https://candid-raindrop-9feaa5.netlify.app",
 }));
 
 app.use(express.json());
