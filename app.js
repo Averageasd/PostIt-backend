@@ -19,7 +19,7 @@ const signupRoute = require("./route/signup");
 const logoutRoute = require("./route/logout");
 const postRoute = require("./route/post");
 const commentRoute = require('./route/comment');
-
+console.log('yo');
 async function main() {
     const uri = process.env.MONGODB_URI;
     await mongoose.connect(uri);
